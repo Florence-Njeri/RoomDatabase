@@ -3,7 +3,7 @@ package com.example.android.trackmysleepquality.database
 import androidx.room.ColumnInfo
 import androidx.room.Entity
 import androidx.room.PrimaryKey
-
+//Define sleep data entity that will create a table daily_sleep_quality_table
 @Entity(tableName="daily_sleep_quality_table")
 data class SleepNight(
         @PrimaryKey(autoGenerate = true)
